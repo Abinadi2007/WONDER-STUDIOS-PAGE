@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WONDER STUDIOS XATRUCS</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>WONDER STUDIOS XATRUCS!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#comics">Comics</a></li>
+                    <li><a href="#novels">Novelas</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Bienvenidos a Wonder Studios Xatrucs</h2>
+                <p>Desde 2012 creando maravillas</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos una empresa dedicada a la distribución de cómics y novelas de alta calidad. Nuestro objetivo es proporcionar a los lectores las mejores historias y aventuras.</p>
+            </div>
+        </section>
+
+        <section id="comics" class="comics">
+            <div class="container">
+                <h2>Comics</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="comic1.jpg" alt="Comic 1">
+                        <h3>Comic 1</h3>
+                        <p>Descripción del Comic 1</p>
+                    </div>
+                    <div class="card">
+                        <img src="comic2.jpg" alt="Comic 2">
+                        <h3>Comic 2</h3>
+                        <p>Descripción del Comic 2</p>
+                    </div>
+                    <!-- Agrega más cómics aquí -->
+                </div>
+            </div>
+        </section>
+
+        <section id="novels" class="novels">
+            <div class="container">
+                <h2>Novelas</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="novel1.jpg" alt="Novel 1">
+                        <h3>Novela 1</h3>
+                        <p>Descripción de la Novela 1</p>
+                    </div>
+                    <div class="card">
+                        <img src="novel2.jpg" alt="Novel 2">
+                        <h3>Novela 2</h3>
+                        <p>Descripción de la Novela 2</p>
+                    </div>
+                    <!-- Agrega más novelas aquí -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Wonder Studios Xatrucs. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
